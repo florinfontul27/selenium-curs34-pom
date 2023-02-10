@@ -8,7 +8,8 @@ class AddRemoveElementsPages:
     #locators
     DELETE_BUTTON = (By.CSS_SELECTOR,'[onclick="deleteElement()"]')
     ADD_ELEMENT_BUTTON = (By.CSS_SELECTOR,'[onclick="addElement()"]')
-
+    TITLE_TEXT = (By.CSS_SELECTOR,"div>h3")
+    
     def __init(self,browser):
         self.browser = browser
 
